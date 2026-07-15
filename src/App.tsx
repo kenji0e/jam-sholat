@@ -15,6 +15,8 @@ import { CountdownOverlay } from './components/CountdownOverlay';
 import { PrayerItem } from './types';
 import { Volume2, VolumeX, Settings, X, RefreshCw } from 'lucide-react';
 
+const padZero = (n: number): string => (n < 10 ? '0' + n : n.toString());
+
 export default function App() {
   const [now, setNow] = useState<Date>(new Date());
   const [hijriOffset, setHijriOffset] = useState<number>(0);
@@ -334,7 +336,7 @@ export default function App() {
                   fontFamily: 'monospace, sans-serif'
                 }}
               >
-                {Math.floor(iqomahSecondsRemaining / 60)}:{(iqomahSecondsRemaining % 60).toString().padStart(2, '0')}
+                {Math.floor(iqomahSecondsRemaining / 60)}:{padZero(iqomahSecondsRemaining % 60)}
               </div>
 
               {/* Teks Instruksi Berjamaah */}
