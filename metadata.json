@@ -1,0 +1,6 @@
+{
+  "name": "Jadwal Sholat Musholla Nurul Hidayah",
+  "description": "Aplikasi jadwal sholat digital dan papan informasi untuk Musholla Nurul Hidayah Bojonggede, dioptimalkan untuk TV dan STB Android",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
