@@ -1,0 +1,6 @@
+{
+  "name": "Jadwal Sholat Musholla Nurul Hidayah",
+  "description": "Aplikasi Jadwal Sholat Digital (Signage) untuk Musholla Nurul Hidayah, Bojonggede, Jawa Barat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
